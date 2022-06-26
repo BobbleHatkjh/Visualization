@@ -1,0 +1,7 @@
+{
+    "editor.fontFamily": "'Menlo'",
+    "prettier.requireConfig": true,
+    "editor.fontSize": 16,
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+}
