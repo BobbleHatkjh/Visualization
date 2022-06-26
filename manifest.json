@@ -3,32 +3,26 @@
 	"name": "demo",
 	"version": "1.0.0",
 	"description": "The demo of number virsualization extension",
-	"icons":
-	{
+	"icons": {
 		"16": "img/logo.png",
 		"48": "img/logo.png",
 		"128": "img/logo.png"
 	},
-	"background":
-	{
+	"background": {
 		"scripts": ["js/background.js"],
 		"persistent": false
 	},
-	"browser_action":
-	{
+	"browser_action": {
 		"default_icon": "img/logo.png",
 		"default_title": "Number visualization demo",
 		"default_popup": "popup.html"
-	},	
-	"permissions":[
-		"contextMenus",
-		"tabs"
-	],
+	},
+	"permissions": ["contextMenus", "tabs"],
 	"content_scripts": [
-        {
-            "matches": ["<all_urls>"],
-            "js": ["js/content.js"],
-						"run_at": "document_idle"
-        }
-    ]
+		{
+			"matches": ["<all_urls>"],
+			"js": ["js/content.js"],
+			"run_at": "document_idle"
+		}
+	]
 }
