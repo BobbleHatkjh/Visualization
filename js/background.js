@@ -4,7 +4,7 @@ var contextMenu = {
 	contexts: ["selection"],
 };
 
-console.log("1.1.2");
+console.log("1.1.3");
 
 chrome.contextMenus.create(contextMenu);
 

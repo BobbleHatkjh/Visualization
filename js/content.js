@@ -1,6 +1,10 @@
 const documentFormat = () => {
 	console.log(document);
 
+	console.log(document.body);
+
+	console.log(document.body.innerHTML);
+
 	// 这里去做打平
 
 	return "格式化好的document";
